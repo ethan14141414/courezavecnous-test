@@ -153,6 +153,16 @@ ul {
 
 @media (max-width: 768px) {
     .nav-social { display: none; }
+    .nav-logo {
+        font-size: 1rem;
+        gap: 6px;
+    }
+    .nav-logo i {
+        font-size: 1rem;
+    }
+    .nav-container {
+        padding: 8px 14px;
+    }
 }
 .nav-link {
     font-weight: 500;
@@ -297,7 +307,7 @@ ul {
 }
 
 .hero-title-accent {
-    color: var(--secondary-color);
+   color: rgba(43, 74, 100, 0.96);
     display: block;
 }
 
